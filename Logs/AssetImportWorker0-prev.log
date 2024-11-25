@@ -1,0 +1,698 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.29f1 (8d510ca76d2b) revision 9261324'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'ru' Physical Memory: 16323 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Program Files (x86)\Unity\Hub\Editor\2022.3.29f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Program Files/UnityProjects/Генерация врагов на уровне
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+55018
+Successfully changed project path to: D:/Program Files/UnityProjects/Генерация врагов на уровне
+D:/Program Files/UnityProjects/Генерация врагов на уровне
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [21748] Host "[IP] 192.168.0.106 [Port] 0 [Flags] 2 [Guid] 2041544399 [EditorId] 2041544399 [Version] 1048832 [Id] WindowsEditor(7,PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [21748] Host "[IP] 192.168.0.106 [Port] 0 [Flags] 2 [Guid] 2041544399 [EditorId] 2041544399 [Version] 1048832 [Id] WindowsEditor(7,PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 5 workers.
+Refreshing native plugins compatible for Editor in 527.82 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.29f1 (8d510ca76d2b)
+[Subsystems] Discovering subsystems at path D:/Program Files (x86)/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Program Files/UnityProjects/Генерация врагов на уровне/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Vendor:   NVIDIA
+    VRAM:     4004 MB
+    Driver:   32.0.15.6614
+Initialize mono
+Mono path[0] = 'D:/Program Files (x86)/Unity/Hub/Editor/2022.3.29f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files (x86)/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Program Files (x86)/Unity/Hub/Editor/2022.3.29f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56876
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files (x86)/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Program Files (x86)/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/Program Files (x86)/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: D:/Program Files (x86)/Unity/Hub/Editor/2022.3.29f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.064304 seconds.
+- Loaded All Assemblies, in  1.032 seconds
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 312 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.755 seconds
+Domain Reload Profiling: 1787ms
+	BeginReloadAssembly (564ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (158ms)
+	LoadAllAssembliesAndSetupDomain (260ms)
+		LoadAssemblies (563ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (258ms)
+			TypeCache.Refresh (256ms)
+				TypeCache.ScanAssembly (242ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (755ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (692ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (492ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (132ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.632 seconds
+Refreshing native plugins compatible for Editor in 3.05 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.889 seconds
+Domain Reload Profiling: 4469ms
+	BeginReloadAssembly (150ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (3337ms)
+		LoadAssemblies (3224ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (197ms)
+			TypeCache.Refresh (168ms)
+				TypeCache.ScanAssembly (150ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (890ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (705ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (36ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (542ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 3.15 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4038 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 71 unused Assets / (245.8 KB). Loaded Objects now: 4495.
+Memory consumption went from 147.0 MB to 146.7 MB.
+Total: 3.667100 ms (FindLiveObjects: 0.337300 ms CreateObjectMapping: 0.297800 ms MarkObjects: 2.821200 ms  DeleteObjects: 0.209900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 175783.105921 seconds.
+  path: Assets/Miniature Army 2D V.1/Animation/Merchant/hurt.anim
+  artifactKey: Guid(7950741505b9f4a8d9b7df4a71a3498c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Animation/Merchant/hurt.anim using Guid(7950741505b9f4a8d9b7df4a71a3498c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '537f2cc7a28ed4609380b8c90b23a62c') in 0.190240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Miniature Army 2D V.1/Animation/Merchant/attack.anim
+  artifactKey: Guid(bc71e119349f84ce7936394c2c34d43d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Animation/Merchant/attack.anim using Guid(bc71e119349f84ce7936394c2c34d43d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '33490c839ae4e6f1ffff220b98402c33') in 0.033105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Miniature Army 2D V.1/Prefab/Priest.prefab
+  artifactKey: Guid(389c7e1a1dabb4e1e917001420b89c9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Prefab/Priest.prefab using Guid(389c7e1a1dabb4e1e917001420b89c9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd344606cf9fb8d00a94f955e04bc2240') in 0.263352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Miniature Army 2D V.1/Animation/Peasant/attack.anim
+  artifactKey: Guid(42e1d7a1fa04b42afae61f8f69e58bb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Animation/Peasant/attack.anim using Guid(42e1d7a1fa04b42afae61f8f69e58bb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2535300fd808be783f03648f32fbb9fe') in 0.031731 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Miniature Army 2D V.1/readme.rtf
+  artifactKey: Guid(360cb6adcbaf7485abecea24d892d949) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/readme.rtf using Guid(360cb6adcbaf7485abecea24d892d949) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '415e2c6fb3806a504918a3804fda320d') in 0.009442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Miniature Army 2D V.1/Animation/Priest/hurt.anim
+  artifactKey: Guid(dc6f016aeaa2d437a8a1c6a7cd6fc894) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Animation/Priest/hurt.anim using Guid(dc6f016aeaa2d437a8a1c6a7cd6fc894) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8411f178b3d8ddb6018534c1adb3ae43') in 0.013040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Miniature Army 2D V.1/Animation/Knight/casting.anim
+  artifactKey: Guid(fca2cf49b9cfe46079dd70486883bc82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Animation/Knight/casting.anim using Guid(fca2cf49b9cfe46079dd70486883bc82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a22473fa1ca70997ddb00c7c81408483') in 0.033389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Miniature Army 2D V.1/Animation/Thief/casting.anim
+  artifactKey: Guid(c0e77700bfa58489abb72641c82f18d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Animation/Thief/casting.anim using Guid(c0e77700bfa58489abb72641c82f18d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '58e9e6488b059c6ee0b4d3163c5a19cd') in 0.019242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Miniature Army 2D V.1/Animation/Soldier/victory.anim
+  artifactKey: Guid(508f717f56de74c9195b603a36f3c086) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Animation/Soldier/victory.anim using Guid(508f717f56de74c9195b603a36f3c086) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '34f1437d2cf739f1773f27ddf898ce41') in 0.019329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Miniature Army 2D V.1/Animation/Soldier/casting.anim
+  artifactKey: Guid(2ec02b386a9d04a00b1a7808c6c1c552) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Animation/Soldier/casting.anim using Guid(2ec02b386a9d04a00b1a7808c6c1c552) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6e035657433872837a86e57d2623f8f6') in 0.019736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Miniature Army 2D V.1/Animation/Merchant/talking.anim
+  artifactKey: Guid(10c9ec7f8e4054b5faf92f2be478dea5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Animation/Merchant/talking.anim using Guid(10c9ec7f8e4054b5faf92f2be478dea5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '76676d96322aee2b1ca5606ef1c5e547') in 0.028493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Miniature Army 2D V.1/Animation/Priest/victory.anim
+  artifactKey: Guid(3ce84a471309248929e6775b72ea2878) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Animation/Priest/victory.anim using Guid(3ce84a471309248929e6775b72ea2878) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3950e56e643fcd6cb652945df66927a8') in 0.011377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Miniature Army 2D V.1/Animation/Soldier/hurt.anim
+  artifactKey: Guid(ec2f908d5fa63443ba23d9a0d152c3f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Animation/Soldier/hurt.anim using Guid(ec2f908d5fa63443ba23d9a0d152c3f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7cb405a1135581bdb79d7b4f7667e5bc') in 0.028576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Scripts/Enemy.cs
+  artifactKey: Guid(abfb32c3eca493f44affda6223bb5dad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Enemy.cs using Guid(abfb32c3eca493f44affda6223bb5dad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a64548f4f98017d3b38e7e2788b25cd9') in 0.021711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Miniature Army 2D V.1/Animation/Knight/victory.anim
+  artifactKey: Guid(6325559d704a646a5a08131da2a92b02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Animation/Knight/victory.anim using Guid(6325559d704a646a5a08131da2a92b02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4ca75a1aad357bce0c73f5f010580d74') in 0.018402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Miniature Army 2D V.1/Animation/Peasant/hurt.anim
+  artifactKey: Guid(6e27f754189714261936933224ffccfe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Animation/Peasant/hurt.anim using Guid(6e27f754189714261936933224ffccfe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0c95fec05c7f591e39143d545625320d') in 0.028039 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Miniature Army 2D V.1/Animation/Knight/attack.anim
+  artifactKey: Guid(13b4961e9a1ae4a0298c95fc3f85d0f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Animation/Knight/attack.anim using Guid(13b4961e9a1ae4a0298c95fc3f85d0f7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '785bdb8f56ca767a8a61ab573049c6da') in 0.022007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Miniature Army 2D V.1/Animation/Soldier/walk.anim
+  artifactKey: Guid(3b7013cd2220743fdae856df7b0919e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Animation/Soldier/walk.anim using Guid(3b7013cd2220743fdae856df7b0919e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '370950968f60bb81fb877bda0fb8445d') in 0.019628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Miniature Army 2D V.1/Animation/Knight/die.anim
+  artifactKey: Guid(2839325d6eb674a85a21e24b21db15d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Animation/Knight/die.anim using Guid(2839325d6eb674a85a21e24b21db15d8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c5d30a20f94848fa1dd99b64e2267539') in 0.032416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Miniature Army 2D V.1/Animation/Thief/die.anim
+  artifactKey: Guid(e1e8f4274952449cdb6abc0a7c04caf9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Animation/Thief/die.anim using Guid(e1e8f4274952449cdb6abc0a7c04caf9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2a75f2586c7381f0bead577013c66e00') in 0.098908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Miniature Army 2D V.1/Animation/Knight/idle.anim
+  artifactKey: Guid(9d48a7a01bd2b4ac2be455308956add9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Animation/Knight/idle.anim using Guid(9d48a7a01bd2b4ac2be455308956add9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '72d7c3c8fec2ee8002e0e2f91035caee') in 0.060437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Miniature Army 2D V.1/Animation/Merchant/die.anim
+  artifactKey: Guid(6fe59b1fcfab445788752b3b6aeeaa6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Animation/Merchant/die.anim using Guid(6fe59b1fcfab445788752b3b6aeeaa6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '857243d1c5a847ad2d653ad456955214') in 0.043888 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Miniature Army 2D V.1/Prefab/Thief.prefab
+  artifactKey: Guid(13c470c5b8dcd4854834911f7e0a9a6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Prefab/Thief.prefab using Guid(13c470c5b8dcd4854834911f7e0a9a6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1d3abb06eecacda5f9f6914f3e10cf84') in 0.182744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 56
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Miniature Army 2D V.1/Animation/Peasant/Peasant.controller
+  artifactKey: Guid(d802920b5f1124a778f16c31c3373388) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Animation/Peasant/Peasant.controller using Guid(d802920b5f1124a778f16c31c3373388) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fbd5d95dfd5282ca2b4856f0ca834101') in 0.089427 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Miniature Army 2D V.1/Prefab/Knight.prefab
+  artifactKey: Guid(978fa2fb617654f5eaeff9da6fc7d116) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Prefab/Knight.prefab using Guid(978fa2fb617654f5eaeff9da6fc7d116) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a6a24c50e51ccf63d6995fc22e9b4a49') in 0.085498 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 54
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Miniature Army 2D V.1/Prefab/Peasant.prefab
+  artifactKey: Guid(a3c1faf915dc240bca8ed7566d46910c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Prefab/Peasant.prefab using Guid(a3c1faf915dc240bca8ed7566d46910c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e4e796897c943d88a4b63ef0931ca155') in 0.034758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 53
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Miniature Army 2D V.1/Animation/Soldier/die.anim
+  artifactKey: Guid(f1bec7f6459b145688f230c8631cc0eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Animation/Soldier/die.anim using Guid(f1bec7f6459b145688f230c8631cc0eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f3caaa023d49ac18c8b90621f744238f') in 0.031978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Miniature Army 2D V.1/Animation/Knight/walk.anim
+  artifactKey: Guid(2fb0aa72589c1415e962dfadbe7b4e92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Animation/Knight/walk.anim using Guid(2fb0aa72589c1415e962dfadbe7b4e92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3362d0d382d782f8ce0cfea0d9a7cfa7') in 0.013276 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Miniature Army 2D V.1/Animation/Priest/idle.anim
+  artifactKey: Guid(148f54f3b5a8f4fd3b1e7b3e26b863ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Animation/Priest/idle.anim using Guid(148f54f3b5a8f4fd3b1e7b3e26b863ed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '83dc13c6b65443c62fd741ed85d49da5') in 0.011700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Miniature Army 2D V.1/Animation/Peasant/walk.anim
+  artifactKey: Guid(ddbbda25700804e35b70d857413ba5d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Animation/Peasant/walk.anim using Guid(ddbbda25700804e35b70d857413ba5d4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '340cf6f0966ffb691a1a471cb215a4fd') in 0.011818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Scripts/Spawner.cs
+  artifactKey: Guid(82da6811c48227a4b998d7fe912216c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scripts/Spawner.cs using Guid(82da6811c48227a4b998d7fe912216c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '428592b7d0cbdfff77915067428c3d63') in 0.024356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Miniature Army 2D V.1/Animation/Peasant/casting.anim
+  artifactKey: Guid(cae7b1ccf658b4c99b4e5ec4eb041f1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Animation/Peasant/casting.anim using Guid(cae7b1ccf658b4c99b4e5ec4eb041f1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1f19d0b6146b7efb88d56be0f0997855') in 0.012291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Miniature Army 2D V.1/Animation/Peasant/die.anim
+  artifactKey: Guid(ff89252f0b0a74b8db908dc76557a804) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Animation/Peasant/die.anim using Guid(ff89252f0b0a74b8db908dc76557a804) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '987b0a75ce4423c18c4f9cc4cccf01df') in 0.011445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Miniature Army 2D V.1/Prefab/Soldier.prefab
+  artifactKey: Guid(315058484cf2044ce8dcb608b4678ff6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Prefab/Soldier.prefab using Guid(315058484cf2044ce8dcb608b4678ff6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0bb69fa4ed3033cd2bf3170022e570fb') in 0.058178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Miniature Army 2D V.1/Animation/Peasant/victory.anim
+  artifactKey: Guid(b1fbfb2e46f5647b2b8caf9c4c98a346) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Animation/Peasant/victory.anim using Guid(b1fbfb2e46f5647b2b8caf9c4c98a346) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '89a3a434d4d273bdd2b9613fdad34840') in 0.012710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Miniature Army 2D V.1/Animation/Soldier/idle.anim
+  artifactKey: Guid(3e0e9de794fe543c7a5a26b5d3cbe3ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Animation/Soldier/idle.anim using Guid(3e0e9de794fe543c7a5a26b5d3cbe3ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dc7e9ac83966b66b1b6882a2d1a18424') in 0.011199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Miniature Army 2D V.1/Sprite/miniature-army1024x768.png
+  artifactKey: Guid(15b2d2faaecad4bfb9edc6585d94f509) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Sprite/miniature-army1024x768.png using Guid(15b2d2faaecad4bfb9edc6585d94f509) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ecc3c68bb9d5358f73033baa098e0737') in 0.273205 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 152
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Miniature Army 2D V.1/Animation/Soldier/attack.anim
+  artifactKey: Guid(2f8216f1ae75a4c9c9f24467705036f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Animation/Soldier/attack.anim using Guid(2f8216f1ae75a4c9c9f24467705036f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cd24d988fd11e6f3d9234067237c84e9') in 0.012755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1b22ea80eb09ac5e8577c4f8c910b94d') in 0.009137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Miniature Army 2D V.1/Animation/Thief/hurt.anim
+  artifactKey: Guid(00d0bb137da4d4024a8b6948c8a791be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Animation/Thief/hurt.anim using Guid(00d0bb137da4d4024a8b6948c8a791be) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e756dc68656c3c559b1214cca6690240') in 0.011096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Miniature Army 2D V.1/Animation/Priest/Priest.controller
+  artifactKey: Guid(9be21d0cc76a54cb3b1d888b51070247) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Animation/Priest/Priest.controller using Guid(9be21d0cc76a54cb3b1d888b51070247) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b1637d0a51235b0e3010552f57550bbf') in 0.016233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Miniature Army 2D V.1/Animation/Merchant/Merchant.controller
+  artifactKey: Guid(4184c92d441824ac3beb993f17f0d0fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Animation/Merchant/Merchant.controller using Guid(4184c92d441824ac3beb993f17f0d0fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '27de8d14c542f9c9a15b59eebaaf1939') in 0.063711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Miniature Army 2D V.1/Animation/Thief/attack.anim
+  artifactKey: Guid(87377b1654e17472996d7f9432ad5060) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Animation/Thief/attack.anim using Guid(87377b1654e17472996d7f9432ad5060) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2199c0b2a3bcd000b0beff1d3060e42a') in 0.090869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Miniature Army 2D V.1/Animation/Thief/victory.anim
+  artifactKey: Guid(4f4a01761dc874e438d2fe160ea08709) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Animation/Thief/victory.anim using Guid(4f4a01761dc874e438d2fe160ea08709) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1f4fcd2ec0b10dda04dbece154ca7787') in 0.014900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Miniature Army 2D V.1/Animation/Thief/walk.anim
+  artifactKey: Guid(6c9334ee14b0b453c99bfb3ea4c878de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Animation/Thief/walk.anim using Guid(6c9334ee14b0b453c99bfb3ea4c878de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3f1eb59f3fafa34ae842168813e2df87') in 0.013430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Miniature Army 2D V.1/Animation/Merchant/victory.anim
+  artifactKey: Guid(8b9cfa843f31f4d67bc60f17b89395b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Animation/Merchant/victory.anim using Guid(8b9cfa843f31f4d67bc60f17b89395b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b7dba8de90b9d3ec88f929801f2600ff') in 0.011785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Miniature Army 2D V.1/Animation/Priest/casting.anim
+  artifactKey: Guid(13f7913c97d374e948ee05b6fac86e71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Animation/Priest/casting.anim using Guid(13f7913c97d374e948ee05b6fac86e71) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dbf5db6266a304faa4016dbfef024d0d') in 0.013156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Miniature Army 2D V.1/Scene/characters.unity
+  artifactKey: Guid(545d6e47609aa4534860750def99df8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Scene/characters.unity using Guid(545d6e47609aa4534860750def99df8e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2f640183b2de7683f61e930d7b851d8e') in 0.018921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Miniature Army 2D V.1/Animation/Merchant/walk.anim
+  artifactKey: Guid(fee0eb169d7d14a40930edb8f1faadea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Animation/Merchant/walk.anim using Guid(fee0eb169d7d14a40930edb8f1faadea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'eb781d4deae571d6d84611fcf04db20e') in 0.011106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Miniature Army 2D V.1/Animation/Thief/idle.anim
+  artifactKey: Guid(6bdf88c984ac24e3abf7d1218d46ab1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Animation/Thief/idle.anim using Guid(6bdf88c984ac24e3abf7d1218d46ab1e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '61520f563d88f3c35c575a79992e8cdc') in 0.025369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Miniature Army 2D V.1/Animation/Knight/hurt.anim
+  artifactKey: Guid(d8a4e79d82a7f4bfcb305bc101dfea5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Animation/Knight/hurt.anim using Guid(d8a4e79d82a7f4bfcb305bc101dfea5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1ba1ceec057e4ea716fb43ea58a8c789') in 0.012580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Miniature Army 2D V.1/Animation/Priest/walk.anim
+  artifactKey: Guid(68b41c53f825e4b56b206eb2baf5c7f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Animation/Priest/walk.anim using Guid(68b41c53f825e4b56b206eb2baf5c7f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '67d745dc2da45682740e62488f29153f') in 0.011494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Miniature Army 2D V.1/Animation/Peasant/idle.anim
+  artifactKey: Guid(0af6a80438a9c4cd6b98322c6052d1d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Animation/Peasant/idle.anim using Guid(0af6a80438a9c4cd6b98322c6052d1d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c56e803441f977f69cc8bfd066032496') in 0.011520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Miniature Army 2D V.1/Animation/Merchant/idle.anim
+  artifactKey: Guid(7d0bb18f112b7495b8a881c370dc0dec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Animation/Merchant/idle.anim using Guid(7d0bb18f112b7495b8a881c370dc0dec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a5a964e2e66575bc35779599f8a65eec') in 0.011767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Miniature Army 2D V.1/Animation/Priest/attack.anim
+  artifactKey: Guid(79422706046784abd88b2e5454b48aa1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Animation/Priest/attack.anim using Guid(79422706046784abd88b2e5454b48aa1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '049d0a9f569ff222a5fff1248dd629dd') in 0.011864 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Miniature Army 2D V.1/Animation/Thief.controller
+  artifactKey: Guid(6bced8ae578df4db6bd5b1a523944f7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Animation/Thief.controller using Guid(6bced8ae578df4db6bd5b1a523944f7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '527afb5d2cd98cb52521743b39f76ad2') in 0.016329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Miniature Army 2D V.1/Scene/charactersSettings.lighting
+  artifactKey: Guid(dca0049650101b94996070de2c27390e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Scene/charactersSettings.lighting using Guid(dca0049650101b94996070de2c27390e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'ec49e6e8963149130eaba43181ab1040') in 0.066487 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Miniature Army 2D V.1/Animation/Soldier/Soldier.controller
+  artifactKey: Guid(68390ae397b19423bb4f001c97122826) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Animation/Soldier/Soldier.controller using Guid(68390ae397b19423bb4f001c97122826) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '74204e7479088b7c8b6b4b6d9656098d') in 0.017035 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Miniature Army 2D V.1/Animation/Priest/die.anim
+  artifactKey: Guid(7125a624c6efb475cb7f2a72241e19b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Animation/Priest/die.anim using Guid(7125a624c6efb475cb7f2a72241e19b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2e5986473d34de14f21829d57f6c07c7') in 0.011532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Miniature Army 2D V.1/Animation/Knight/Knight.controller
+  artifactKey: Guid(2deec9488aaac47ad9c09eed3aed072e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Animation/Knight/Knight.controller using Guid(2deec9488aaac47ad9c09eed3aed072e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '97b4e0c2d054d077279b289fda7d7c3e') in 0.019085 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Miniature Army 2D V.1/Original artwork/Miniature-army-original-design.ai
+  artifactKey: Guid(0040f3d19436d49c5b8972c7a92dcc3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Original artwork/Miniature-army-original-design.ai using Guid(0040f3d19436d49c5b8972c7a92dcc3d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9b4ebf5bdf4d9b47e2aff44bf7c4d870') in 0.009610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Miniature Army 2D V.1/Prefab/Merchant.prefab
+  artifactKey: Guid(7d908ba845b1044e6829ed5fb7c4be10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Miniature Army 2D V.1/Prefab/Merchant.prefab using Guid(7d908ba845b1044e6829ed5fb7c4be10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '12a3c443f5dba3d21427a474bf51562f') in 0.042359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Import Request.
+  Time since last request: 21.155874 seconds.
+  path: Assets/Scripts/Enemy.cs
+  artifactKey: Guid(abfb32c3eca493f44affda6223bb5dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy.cs using Guid(abfb32c3eca493f44affda6223bb5dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '870bd5a0caf6f601af02bfa344a9ea60') in 0.000568 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
